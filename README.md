@@ -60,13 +60,21 @@ Note:
 ***Install by bash***
 
 ```
-$ wget -qO- https://raw.githubusercontent.com/haroldduan/giprote.commandline/1.2.0/install.sh | bash
+$ wget -qO- https://raw.githubusercontent.com/haroldduan/giprote.commandline/1.2.1/install.sh | bash
+```
+
+```
+$ wget -qO- http://rds.avatech.com.cn:8080/scripts/gpt/install.sh | bash
 ```
 
 *or*
 
 ```
-$ curl -o- https://raw.githubusercontent.com/haroldduan/giprote.commandline/1.2.0/install.sh | bash
+$ curl -o- https://raw.githubusercontent.com/haroldduan/giprote.commandline/1.2.1/install.sh | bash
+```
+
+```
+$ curl -o- http://rds.avatech.com.cn:8080/scripts/gpt/install.sh | bash
 ```
 
 ### Windows
@@ -74,7 +82,11 @@ $ curl -o- https://raw.githubusercontent.com/haroldduan/giprote.commandline/1.2.
 ***Install by PowerShell***
 
 ```
-PS C:\Users\Administrator> Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/haroldduan/giprote.commandline/1.2.0/install.ps1'))
+PS C:\Users\Administrator> Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/haroldduan/giprote.commandline/1.2.1/install.ps1'))
+```
+
+```
+PS C:\Users\Administrator> Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('http://rds.avatech.com.cn:8080/scripts/gpt/install.ps1'))
 ```
 
 ## Usage
