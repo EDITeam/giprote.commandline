@@ -26,7 +26,7 @@ Set-Location $env:USERPROFILE\.giprote
 # {
     # Remove-Item -Force -Recurse giprote.commandline
 # }
-git clone https://github.com/haroldduan/giprote.commandline.git
+git clone https://github.com/EDITeam/giprote.commandline.git
 Write-Output "Installing..."
 Set-Location $env:giprote_dir
 # git branch -r | grep -E "[0-9].[0-9].[0-9]" | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
