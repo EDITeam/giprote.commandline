@@ -1,4 +1,4 @@
-# giprote.commandline ![version](https://img.shields.io/badge/version-1.2.0-red.svg?cacheSeconds=2592000) ![license](https://img.shields.io/badge/license-Apache2.0-blue.svg) ![date](https://img.shields.io/date/1578499200.svg)
+# giprote.commandline ![version](https://img.shields.io/badge/version-1.2.1-red.svg?cacheSeconds=2592000) ![license](https://img.shields.io/badge/license-Apache2.0-blue.svg) ![date](https://img.shields.io/date/1578499200.svg)
 
 + [Overview](#Overview)  
 + [Dependency](#Dependency)  
