@@ -35,7 +35,7 @@ EOF
 # . $HOME/.bashrc
 cd $HOME/.giprote
 sudo rm -rf giprote.commandline
-git clone https://github.com/haroldduan/giprote.commandline.git
+git clone https://github.com/EDITeam/giprote.commandline.git
 # sudo cp -r $(cd $(dirname $0); pwd -P)/giprote.sh $HOME/.giprote
 # sudo -c wget http://rds.avatech.com.cn:7070/harold.duan/giprote.commandline/releases/download/v1.0.1/gpt_v1.2.2.zip
 # sudo unzip -o gpt_v1.2.2.zip
