@@ -1,4 +1,4 @@
-<#
+﻿<#
 **** Genprof,means [GenerateProjectsFolders]'s abbreviation.
 **** Programmer:Harold.Duan
 **** Date:20200110
@@ -47,9 +47,12 @@ git fetch --all
 git pull --all
 git checkout $max
 # Copy-Item -Recurse -Force gpt.ps1 $giprote_dir
-if (-not (Test-Path "$env:USERPROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"))
-{
-    New-Item -Type file -Force -Name $profil
+# if (-not (Test-Path "$env:USERPROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"))
+# {
+    # New-Item -Type file -Force -Name $profil
+# }
+if (!(Test-Path -Path $PROFILE)) {
+    New-Item -ItemType File -Path $PROFILE -Force | Out-Null
 }
 Copy-Item -Recurse -Force .\scripts\Microsoft.PowerShell_profile.ps1 $env:USERPROFILE\Documents\WindowsPowerShell
 & $env:USERPROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
@@ -57,4 +60,6 @@ Write-Output "Done!"
 .$giprote_dir\scripts\copyright.ps1 "copyright"
 Get-Content -Encoding utf8 $giprote_dir\scripts\version
 .$giprote_dir\scripts\copyright.ps1 "giprote"
+# PowerShell
 Set-Location $cur_path
+PowerShell
